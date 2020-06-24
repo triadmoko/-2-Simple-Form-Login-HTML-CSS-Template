@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Pangolin&display=swap);
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Pangolin', cursive;
+}
+.login{
+    width: 400px;
+    margin: 150px auto;
+    font-size: 16px;
+    top: 50%;
+}
+.header, .login p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header {
+    background: orange;
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container{
+    background: #ebebeb;
+    padding: 12px;
+    height: 260px;
+}
+
+.login input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+.login p{
+    padding: 12px;
+}
+.login input[type="email"], input[type="password"]{
+    background: #FFFFFF;
+    border-color: transparent;
+    color: black;
+    border-radius: 8px;
+}
+.login input[type="email"]:focus, input[type="password"]:focus{
+    border-color:orange;
+}
+.login input[type="submit"]{
+    background: orange;
+    width: 150px;
+    border-radius: 20px;
+    border-color: transparent;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+.login input[type="submit"]:hover{
+    background-color: coral;
+}
